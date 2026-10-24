@@ -1437,7 +1437,7 @@ button, input {
 /* Back to Top Button */
 .scroll-top-btn {
     position: fixed;
-    bottom: 2rem;
+    bottom: 5rem;
     right: 2rem;
     width: 46px;
     height: 46px;
@@ -1693,10 +1693,10 @@ button, input {
     }
 
     .scroll-top-btn {
-        bottom: 1.25rem;
+        bottom: 4.5rem;
         right: 1.25rem;
-        width: 42px;
-        height: 42px;
+        width: 44px;
+        height: 44px;
     }
 }
 
