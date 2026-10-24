@@ -2166,13 +2166,19 @@ button, input {
     overflow: hidden;
     border: 1px solid rgba(255, 255, 255, 0.15);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    background: #0b1325;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .u2-image-main img {
     width: 100%;
-    height: 420px;
-    object-fit: cover;
+    height: auto;
+    max-height: 520px;
+    object-fit: contain;
     display: block;
+    border-radius: var(--radius-lg);
 }
 
 .u2-sub-img {
@@ -2378,16 +2384,20 @@ button, input {
 }
 
 .delivery-image-wrap {
-    height: 100%;
-    min-height: 380px;
-    background: #e2e8f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    background: #f1f5f9;
 }
 
 .delivery-image-wrap img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
+    max-height: 400px;
+    object-fit: contain;
     display: block;
+    border-radius: var(--radius-md);
 }
 
 /* Telegram Quick Action Banner */
@@ -2496,43 +2506,41 @@ button, input {
     border-bottom: 1px solid var(--border-color);
 }
 
-.highlight-banner {
-    margin-top: 2.5rem;
-    background: #0f172a;
-    color: #ffffff;
+.buyout-note-block {
+    margin-top: 3.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.buyout-note-title {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    line-height: 1.35;
+    max-width: 44rem;
+    margin: 0 auto;
+}
+
+.buyout-photo-wrap {
+    max-width: 48rem;
+    margin: 0 auto;
     border-radius: var(--radius-lg);
     overflow: hidden;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1.5px solid var(--border-color);
     box-shadow: var(--shadow-md);
-}
-
-.highlight-banner-inner {
-    display: grid;
-    grid-template-columns: 1.2fr 0.8fr;
+    background: #0f172a;
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-.highlight-banner-text {
-    padding: 2.5rem;
-}
-
-.highlight-banner-text h3 {
-    font-size: 1.6rem;
-    font-weight: 700;
-    line-height: 1.35;
-    color: #ffffff;
-}
-
-.highlight-banner-media {
-    height: 100%;
-    min-height: 240px;
-}
-
-.highlight-banner-media img {
+.buyout-photo-wrap img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
+    max-height: 560px;
+    object-fit: contain;
     display: block;
+    border-radius: var(--radius-lg);
 }
 
 .buyout-text {
@@ -2572,7 +2580,9 @@ button, input {
     }
 
     .u2-image-main img {
-        height: 340px;
+        height: auto;
+        max-height: 440px;
+        object-fit: contain;
     }
 
     .delivery-card {
@@ -2584,8 +2594,7 @@ button, input {
     }
 
     .delivery-image-wrap {
-        min-height: 280px;
-        max-height: 380px;
+        padding: 1.25rem;
     }
 
     .tg-action-banner {
@@ -2606,21 +2615,18 @@ button, input {
         padding: 3rem 0;
     }
 
-    .highlight-banner-inner {
-        grid-template-columns: 1fr;
+    .buyout-note-block {
+        margin-top: 2.25rem;
+        margin-bottom: 1.25rem;
     }
 
-    .highlight-banner-text {
-        padding: 1.5rem 1.25rem;
-    }
-
-    .highlight-banner-text h3 {
+    .buyout-note-title {
         font-size: 1.25rem;
     }
 
-    .highlight-banner-media {
-        min-height: 200px;
-        max-height: 260px;
+    .buyout-photo-wrap img {
+        max-height: 380px;
+        object-fit: contain;
     }
 
     /* Hero section mobile */
@@ -2722,7 +2728,9 @@ button, input {
     }
 
     .u2-image-main img {
-        height: 260px;
+        height: auto;
+        max-height: 360px;
+        object-fit: contain;
     }
 
     .u2-sub-img {
