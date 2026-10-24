@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>Условия аренды Электровело от нашей компании</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo-link">
+                <img src="logo.png" alt="Экспресс Плюс" class="logo">
+            </a>
+
+            <nav class="nav" id="mainNav">
+                <ul class="nav-list">
+                    <li><a href="#rent" class="nav-link">Условия аренды</a></li>
+                    <li><a href="#aist" class="nav-link">Предложение от "Аист"</a></li>
+                    <li><a href="#u2" class="nav-link">U2 PRO</a></li>
+                    <li><a href="#delivery" class="nav-link">Доставка</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <button class="burger-btn" id="burgerBtn" type="button" aria-label="Открыть меню" aria-expanded="false">
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- MOBILE MENU OVERLAY -->
+    <div class="nav-backdrop" id="navBackdrop"></div>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content" id="main">
+
+        <!-- 1. УСЛОВИЯ АРЕНДЫ ЭЛЕКТРОВЕЛО ОТ НАШЕЙ КОМПАНИИ -->
+        <section class="section" id="rent">
+            <div class="container">
+                <div class="section-header">
+                    <h1 class="section-title">Условия аренды Электровело от нашей компании</h1>
+                </div>
+
+                <div class="rates-grid">
+                    <!-- 1 -->
+                    <div class="rate-card rate-card-best">
+                        <div class="rate-hours-badge">📍 от 72 часов в неделю</div>
+                        <div class="rate-price rate-price-free">БЕСПЛАТНО</div>
+                        <div class="rate-card-body">
+                            аренда БЕСПЛАТНО
+                        </div>
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="rate-card">
+                        <div class="rate-hours-badge">📍 от 51 - 71 часов в неделю</div>
+                        <div class="rate-price">1300₽</div>
+                        <div class="rate-card-body">
+                            аренда 1300₽ (списывается из еженедельной выплаты)
+                        </div>
+                    </div>
+
+                    <!-- 3 -->
+                    <div class="rate-card">
+                        <div class="rate-hours-badge">📍 менее 50 часов в неделю</div>
+                        <div class="rate-price">2500₽</div>
+                        <div class="rate-card-body">
+                            аренда 2500₽ списывается из еженедельной выплаты)
+                        </div>
+                    </div>
+
+                    <!-- 4 -->
+                    <div class="rate-card">
+                        <div class="rate-hours-badge">📍 0 часов в неделю</div>
+                        <div class="rate-price">Самооплата</div>
+                        <div class="rate-card-body">
+                            перевод на самооплату, значит оплачиваете аренду сами компании филиала<br><br>
+                            Напрямую из выплаты ничего удерживаться не будет).
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rate-note-box">
+                    <span style="font-size: 1.25rem;">📍</span>
+                    <div>
+                        <strong>Адреса филиалов по выдаче транспорта прошу уточнять в ЛС</strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. ПРЕДЛОЖЕНИЕ ОТ НАШЕГО ФИЛИАЛА ПАРТНЁРА "АИСТ" -->
+        <section class="section section-alt" id="aist">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Предложение от нашего филиала партнёра "Аист"</h2>
+                    <p class="section-subtitle">Возможность выкупа находясь на аренде от нашей компании</p>
+                </div>
+
+                <div class="buyout-grid">
+                    <div class="buyout-card buyout-card-lead">
+                        <div class="buyout-duration">12 недель по 72 часов +</div>
+                        <div class="buyout-price">Бесплатно</div>
+                        <div class="buyout-text">
+                            Если 12 недель вы доставляете по 72 часов + - ЭВ ваш бесплатно и нет вычета аренды
+                        </div>
+                    </div>
+
+                    <div class="buyout-card">
+                        <div class="buyout-duration">от 50 до 70 часов</div>
+                        <div class="buyout-price">15.600 ₽</div>
+                        <div class="buyout-text">
+                            Если доставляете от 50 до 70 часов +ЭВ по стоимости выходит 15.600 вы оплачиваете филиалу по истечению срока 3 мес и транспорт ваш (Не забываем про вычет аренды по количеству часов)
+                        </div>
+                    </div>
+
+                    <div class="buyout-card">
+                        <div class="buyout-duration">менее 50 часов в неделю</div>
+                        <div class="buyout-price">30.000 ₽</div>
+                        <div class="buyout-text">
+                            Если доставляете менее 50 часов в неделю, то выкуп за 30.000 в течении 3 месяцев (Не забываем про вычет аренды по количеству часов каждую неделю)
+                        </div>
+                    </div>
+                </div>
+
+                <div class="highlight-banner">
+                    <div class="highlight-banner-inner">
+                        <div class="highlight-banner-text">
+                            <h3>Классный байк с 2мя акб за 3 месяца может стать личной собственностью Курьера</h3>
+                        </div>
+                        <div class="highlight-banner-media">
+                            <img src="u2-assembly.jpg" alt="Байк с 2мя акб">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. СПЕЦИАЛЬНОЕ ПРЕДЛОЖЕНИЕ -->
+        <section class="section u2-section" id="u2">
+            <div class="container">
+                <div class="section-header">
+                    <span class="u2-specs-badge">СПЕЦИАЛЬНОЕ ПРЕДЛОЖЕНИЕ</span>
+                    <h2 class="u2-title" style="color: #ffffff;">U2 PRO</h2>
+                    <p class="u2-desc" style="max-width: 48rem; margin: 0 auto 2.5rem; text-align: center;">
+                        АКБ 60/45 LiFePO4 тот самый вариант АКБ которые не загораются и зимой держат заряд по 12-14 часов (есть вариации аренды без АКБ, с 1м АКБ, с 2мя АКБ)
+                    </p>
+                </div>
+
+                <div class="u2-grid">
+                    <div class="u2-gallery">
+                        <div class="u2-image-main">
+                            <img src="u2-pro.jpg" alt="U2 PRO">
+                        </div>
+                    </div>
+
+                    <div class="u2-content">
+                        <h3 style="font-size: 1.25rem; font-weight: 700; color: #ffffff; margin-bottom: 1rem;">Комплектация:</h3>
+                        <div class="kit-grid">
+                            <div class="kit-item">Двойная сидушка</div>
+                            <div class="kit-item">Сигнализация</div>
+                            <div class="kit-item">Всесезонная резина</div>
+                            <div class="kit-item">Зарядное устройство</div>
+                            <div class="kit-item">Шлем</div>
+                            <div class="kit-item">Антивандальный замок</div>
+                        </div>
+
+                        <div class="u2-pricing-cards">
+                            <div class="u2-price-pill">
+                                <span class="u2-price-title">Аренда без АКБ</span>
+                                <span class="u2-price-num">16.000 р</span>
+                            </div>
+                            <div class="u2-price-pill">
+                                <span class="u2-price-title">Аренда с 1м АКБ</span>
+                                <span class="u2-price-num">22.000 р</span>
+                            </div>
+                            <div class="u2-price-pill highlight">
+                                <span class="u2-price-title">Аренда с 2мя АКБ</span>
+                                <span class="u2-price-num">27.000 р</span>
+                            </div>
+                        </div>
+
+                        <div class="u2-new-promo">
+                            <strong>АРЕНДА НОВОГО U2 вычет Аренды и доплата филиалу 5.000р в месяц</strong>
+                            <span>Возможность выкукпа уточняем в филиале</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. ДОСТАВКА -->
+        <section class="section" id="delivery">
+            <div class="container">
+                <div class="delivery-card">
+                    <div class="delivery-content">
+                        <h2 style="font-size: 1.85rem; font-weight: 800; color: var(--text-primary); line-height: 1.35;">
+                            Так же для Вас действует доставка по СПБ и ЛО до Даркстора или до дома на нашем автомобиле
+                        </h2>
+                    </div>
+                    <div class="delivery-image-wrap">
+                        <img src="aist-delivery.png" alt="Доставка на автомобиле">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-center-content">
+                <img src="logo.png" alt="Логотип" class="footer-logo">
+                <p class="footer-tagline">«Экспресс плюс»</p>
+                <ul class="footer-links">
+                    <li><a href="#rent">Условия аренды</a></li>
+                    <li><a href="#aist">Предложение от "Аист"</a></li>
+                    <li><a href="#u2">U2 PRO</a></li>
+                    <li><a href="#delivery">Доставка</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright">© 2026 «Экспресс плюс». Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCROLL TO TOP BUTTON -->
+    <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Вернуться наверх" type="button">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
