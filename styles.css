@@ -9,9 +9,9 @@
     --primary-light: #fff7ed;
     --primary-glow: rgba(255, 102, 0, 0.25);
     
-    --accent: #f72585;
-    --accent-hover: #d91b70;
-    --accent-light: #fff0f6;
+    --accent: #ff6600;
+    --accent-hover: #ea580c;
+    --accent-light: #fff7ed;
     
     --success: #10b981;
     --success-light: #ecfdf5;
@@ -2202,14 +2202,17 @@ button, input {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 0.5rem 1rem;
-    background: rgba(247, 37, 133, 0.18);
-    border: 1px solid rgba(247, 37, 133, 0.4);
+    padding: 0.5rem 1.25rem;
+    background: rgba(255, 102, 0, 0.2);
+    border: 1.5px solid #ff6600;
     border-radius: var(--radius-full);
-    color: #ff70a6;
-    font-weight: 700;
+    color: #ff9933;
+    font-weight: 800;
     font-size: 0.875rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
     margin-bottom: 1.25rem;
+    box-shadow: 0 4px 16px rgba(255, 102, 0, 0.3);
 }
 
 .u2-title {
