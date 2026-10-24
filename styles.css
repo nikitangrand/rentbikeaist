@@ -1740,7 +1740,127 @@ button, input {
    BIKE RENTAL & BUYOUT SPECIAL STYLES
    ========================================================================== */
 
-/* Badges & Highlights */
+/* Single Conditions Card (No emojis, Unified Block) */
+.conditions-single-card {
+    max-width: 52rem;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1.5px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: 3rem 2.5rem;
+    box-shadow: var(--shadow-md);
+}
+
+.conditions-main-title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    text-align: center;
+    margin-bottom: 2.25rem;
+    line-height: 1.25;
+}
+
+.conditions-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.conditions-row {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    padding: 1.25rem 1.5rem;
+    border-radius: var(--radius-md);
+    background: var(--bg-page);
+    border: 1px solid var(--border-color);
+    font-size: 1.05rem;
+    transition: var(--transition);
+}
+
+.conditions-row:hover {
+    border-color: #cbd5e1;
+    background: #ffffff;
+    box-shadow: var(--shadow-sm);
+}
+
+.conditions-row-free {
+    background: #f0fdf4;
+    border-color: rgba(16, 185, 129, 0.35);
+}
+
+.conditions-row-free:hover {
+    background: #e6fcf0;
+    border-color: rgba(16, 185, 129, 0.5);
+}
+
+.conditions-hours {
+    font-weight: 700;
+    color: var(--text-primary);
+    white-space: nowrap;
+}
+
+.conditions-row-free .conditions-hours {
+    color: #047857;
+}
+
+.conditions-sep {
+    color: var(--text-muted);
+}
+
+.conditions-desc {
+    color: var(--text-secondary);
+    flex: 1;
+}
+
+.conditions-row-free .conditions-desc {
+    color: #065f46;
+}
+
+.conditions-subnote {
+    display: block;
+    margin-top: 0.35rem;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+}
+
+.conditions-single-footer {
+    margin-top: 2rem;
+    padding: 1.15rem 1.5rem;
+    background: var(--bg-subtle);
+    border-radius: var(--radius-md);
+    text-align: center;
+    font-weight: 600;
+    color: var(--text-primary);
+    font-size: 1rem;
+    border: 1px dashed #cbd5e1;
+}
+
+@media (max-width: 48rem) {
+    .conditions-single-card {
+        padding: 1.75rem 1.25rem;
+    }
+
+    .conditions-main-title {
+        font-size: 1.45rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .conditions-row {
+        flex-direction: column;
+        gap: 0.35rem;
+        padding: 1rem 1.15rem;
+        font-size: 0.95rem;
+    }
+
+    .conditions-sep {
+        display: none;
+    }
+
+    .conditions-hours {
+        white-space: normal;
+    }
+}
 .badge-tag {
     display: inline-flex;
     align-items: center;
