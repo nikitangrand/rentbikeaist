@@ -2067,6 +2067,14 @@ button, input {
     background-color: #ffffff;
 }
 
+.buyout-lead-subtitle {
+    font-size: 1.45rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    line-height: 1.35;
+    margin-top: 0.75rem;
+}
+
 .buyout-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -2328,7 +2336,7 @@ button, input {
     justify-content: space-between;
     gap: 1rem;
     flex-wrap: wrap;
-    font-size: 0.9375rem;
+    font-size: 1,5rem;
     color: #ffedd5;
 }
 
@@ -2603,6 +2611,10 @@ button, input {
 
     .section {
         padding: 3rem 0;
+    }
+
+    .buyout-lead-subtitle {
+        font-size: 1.2rem;
     }
 
     .buyout-dark-banner {
