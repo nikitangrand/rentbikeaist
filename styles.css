@@ -24,7 +24,7 @@
     --bg-page: #f8fafc;
     --bg-card: #ffffff;
     --bg-subtle: #f1f5f9;
-    --bg-dark: #0f172a;
+    --bg-dark: #200f06;
     
     --border-color: #e2e8f0;
     --border-focus: #ff6600;
@@ -1349,10 +1349,10 @@ button, input {
    FOOTER
    ========================================================================== */
 .footer {
-    background-color: var(--bg-dark);
-    color: #94a3b8;
+    background: linear-gradient(180deg, #241107 0%, #170903 100%);
+    color: #fed7aa;
     padding: 4rem 0 2.5rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-top: 1px solid rgba(255, 102, 0, 0.25);
     text-align: center;
 }
 
@@ -2142,10 +2142,12 @@ button, input {
 /* U2 PRO Showcase Section */
 .u2-section {
     padding: 5.5rem 0;
-    background: #18181b;
+    background: linear-gradient(180deg, #281206 0%, #190a03 100%);
     color: #ffffff;
     position: relative;
     overflow: hidden;
+    border-top: 1px solid rgba(255, 102, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 102, 0, 0.2);
 }
 
 .u2-grid {
@@ -2226,8 +2228,8 @@ button, input {
 }
 
 .u2-battery-highlight {
-    background: rgba(30, 41, 59, 0.85);
-    border: 1px solid rgba(56, 189, 248, 0.35);
+    background: rgba(45, 18, 6, 0.85);
+    border: 1px solid rgba(255, 102, 0, 0.35);
     border-radius: var(--radius-md);
     padding: 1.25rem 1.5rem;
     margin-bottom: 1.75rem;
@@ -2248,7 +2250,7 @@ button, input {
 }
 
 .u2-battery-text p {
-    color: #94a3b8;
+    color: #fdba74;
     font-size: 0.9rem;
     margin: 0;
 }
@@ -2264,12 +2266,12 @@ button, input {
     display: flex;
     align-items: center;
     gap: 0.6rem;
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(255, 102, 0, 0.08);
     padding: 0.65rem 0.9rem;
     border-radius: var(--radius-sm);
     font-size: 0.875rem;
-    color: #e2e8f0;
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    color: #fed7aa;
+    border: 1px solid rgba(255, 102, 0, 0.2);
 }
 
 .u2-pricing-cards {
@@ -2280,8 +2282,8 @@ button, input {
 }
 
 .u2-price-pill {
-    background: rgba(255, 255, 255, 0.06);
-    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: rgba(255, 102, 0, 0.08);
+    border: 1px solid rgba(255, 102, 0, 0.22);
     border-radius: var(--radius-md);
     padding: 1rem;
     text-align: center;
@@ -2289,13 +2291,14 @@ button, input {
 }
 
 .u2-price-pill:hover {
-    background: rgba(255, 255, 255, 0.12);
-    border-color: #fb923c;
+    background: rgba(255, 102, 0, 0.16);
+    border-color: #ff6600;
 }
 
 .u2-price-pill.highlight {
-    background: linear-gradient(135deg, rgba(255, 102, 0, 0.3) 0%, rgba(247, 37, 133, 0.25) 100%);
-    border-color: #f72585;
+    background: linear-gradient(135deg, rgba(255, 102, 0, 0.35) 0%, rgba(234, 88, 12, 0.45) 100%);
+    border-color: #ff6600;
+    box-shadow: 0 4px 18px rgba(255, 102, 0, 0.35);
 }
 
 .u2-price-title {
@@ -2313,8 +2316,8 @@ button, input {
 }
 
 .u2-new-promo {
-    background: rgba(247, 37, 133, 0.12);
-    border: 1px dashed rgba(247, 37, 133, 0.45);
+    background: rgba(255, 102, 0, 0.14);
+    border: 1px dashed rgba(255, 102, 0, 0.5);
     border-radius: var(--radius-md);
     padding: 1rem 1.25rem;
     display: flex;
@@ -2323,7 +2326,7 @@ button, input {
     gap: 1rem;
     flex-wrap: wrap;
     font-size: 0.9375rem;
-    color: #fce7f3;
+    color: #ffedd5;
 }
 
 /* Delivery Section */
@@ -2508,15 +2511,15 @@ button, input {
 }
 
 .buyout-dark-banner {
-    background: #0f172a;
+    background: linear-gradient(135deg, #2c1407 0%, #1a0a03 100%);
     color: #ffffff;
     border-radius: var(--radius-lg);
     padding: 2rem 2.5rem;
     text-align: center;
     max-width: 48rem;
     margin: 3.5rem auto 0;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: var(--shadow-md);
+    border: 1.5px solid rgba(255, 102, 0, 0.35);
+    box-shadow: 0 10px 30px rgba(255, 102, 0, 0.15);
 }
 
 .buyout-dark-title {
