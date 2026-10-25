@@ -2069,6 +2069,7 @@ button, input {
 
 .buyout-lead-subtitle {
     font-size: 1.45rem;
+    font-weight: 500;
     color: var(--text-primary);
     line-height: 1.35;
     margin-top: 0.75rem;
